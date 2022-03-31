@@ -179,16 +179,113 @@ margin-top: 40px;
 .apointment_section{
     background-image: url(../img/apointmentbg.jpg);
     height: 732px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .apoint_border{
     width: 100%;
     height: 100px;
-    margin-top: 133px;
+    margin-top: 173px;
 }
 .book_btn{
-    margin-left: 39%;
-    margin-top: 95px;
+    margin-left: 34%;
+    margin-top: 90px;
 }
 .b_button{
-    padding: 10px 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 50px;
 }
+/* gellary section */
+.gellary_section{
+    height: 595px;
+    background-image: url(../img/gellarybg.svg);
+    background-color: #fff;
+}
+.gellary_section h2{
+    font-family: 'Playfair Display', serif;
+    font-size:55px ;
+}
+.gellary_section h2 span{
+    color: red;
+}
+/* slider section */
+.gellary-slideshow {
+    height: 414px;
+    max-width: 10770px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+    }
+    .gellary-slideshow > div {
+    height: 414px;
+    width: 10770px;
+    background-image: url("../img/gellaryslider.png");
+    background-repeat: repeat-x;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transform: translate3d(0, 0, 0);
+    }
+    .gellary-slideshow .slide-1 {
+    animation: moveSlideshow 50s linear infinite;
+    }
+    .gellary-slideshow .slide-2 {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+    background-position: 0 -200px;
+    animation: moveSlideshow 50s linear infinite;
+    }
+    
+    @keyframes moveSlideshow {
+    100% {
+    transform: translateX(-66.6666%);
+    }
+    }
+    /* footer section */
+    .footer_section{
+        background-image: url(../img/footerbg.svg);
+        height: 714px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .logo_border{
+        top: 42px;
+        left: 509px;
+        min-width: 176px;
+        width: 176px;
+        min-height: 176px;
+        height: 176px;
+        display: block;
+        /* overflow: hidden; */
+    }
+    .logo_border img{
+        width: 175px;
+        height: 174px;
+        display: block;
+        position: relative;
+        left: 537px;
+        top: 51px;
+        max-width: inherit;
+    }
+    .footer_logo{
+        top: 65px;
+        left: 531px;
+        min-width: 132px;
+        width: 132px;
+        min-height: 130px;
+        height: 130px;
+        display: block;
+        /* overflow: hidden; */
+    }
+    .footer_logo img{
+        width: 130px;
+        height: 130px;
+        display: block;
+        position: relative;
+        left: 560px;
+        top: -102px;
+        max-width: inherit;
+    }
