@@ -1,0 +1,119 @@
+.contact_header {
+  background-image: url(img/contactsection_bg.jpg);
+  height: 400px;
+  min-height: 400px;
+  background-position: center;
+  margin-top: -10px;
+}
+.contact_header .header_heading {
+  position: relative;
+  text-align: center;
+}
+.contact_header .header_heading img.header_img {
+  position: absolute;
+  width: 300px;
+  height: 159px;
+  top: 125px;
+  left: 38%;
+}
+h1.header_discri {
+  font-size: 60px;
+  font-family: "Playfair Display", serif;
+  position: absolute;
+  top: 164px;
+  left: 38%;
+  color: white;
+}
+
+/* search section */
+.search_section {
+  min-height: 2484px;
+  height: 2484px;
+}
+.search_section h2 {
+  font-size: 50px;
+  font-family: "Playfair Display", serif;
+}
+.search_section h2 span {
+  color: red;
+}
+.search_section .heading_design {
+  width: 251px;
+  height: 2px;
+}
+.search_section .call_card .card_img {
+  width: 117px;
+  height: 118px;
+}
+.search_section .call_card .card_inner {
+  width: 39%;
+  text-align: inherit;
+  margin-left: 28px;
+  padding-top: 6px;
+}
+.search_section .search_girl {
+  width: 550px;
+  height: 635px;
+}
+.search_section .card_inner h3 {
+  font: normal normal 36px "Playfair Display", Arial, serif;
+  color: black;
+}
+.search_section .card_inner h3 span {
+  color: red;
+}
+.search_section .call_card {
+  padding-bottom: 55px;
+}
+/* map section */
+.map_section{
+  width: 100%;
+  height: 350px;
+}
+
+/* form section */
+
+.form_section {
+  width: 100%;
+  height: 100%;
+  min-height: 758px;
+  background-color: #e21f26;
+}
+.form_section .forem_heading h2 {
+  font: normal bold 56px "Playfair Display", Arial, serif;
+  color: #fff;
+}
+.form_section .heading_t_design {
+  width: 300px;
+  height: 31px;
+  margin-left: 38%;
+}
+.form_img {
+  width: 550px;
+  min-height: 437px;
+  margin-left: 78px;
+}
+.message_input{
+  height: 290px;
+  width: 509px;
+}
+.form_btn{
+  padding:6px 12px;
+  background-color: #fff;
+  margin-left: 80%;
+  margin-top: 8px;
+}
+.w--input{
+  width: 509px;
+  height: 34px;
+}
+.padding_{
+  margin-right: -17px !important;
+}
+.form-label{
+  padding-right: 34px;
+  font-size: 14px;
+  color: #fff;
+}
+
+

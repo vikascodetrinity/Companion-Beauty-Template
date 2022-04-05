@@ -1,0 +1,232 @@
+@media screen and (max-width: 1200px) {
+  .first-nav {
+    padding-left: 0px;
+  }
+  .first-nav .first_nav_dis .f_nav_pera {
+    font-size: 11px;
+  }
+  .first-nav .first_nav_dis i {
+    font-size: 28px;
+  }
+  .first-nav .first_nav_icon i {
+    font-size: 21px;
+  }
+  .first-nav .first_nav_icon{
+    padding-left: 21%;
+  }
+  .content p {
+    font-size: 47px;
+  }
+  .logo_border img {
+    left: 424px;
+    top: 106px;
+  }
+  .footer_logo img {
+    left: 447px;
+    top: -47px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .first_nav_dis .f_nav_pera{
+    display: none;
+  }
+  .first-nav .first_nav_dis i{
+    display: none;
+  }
+  .first-nav .first_nav_icon{
+    padding-left: 40%;
+    }
+  .logo_border img {
+    left: 250px;
+    top: 48px;
+  }
+  button.btn.firstnav_btn {
+    display: none;
+}
+  .swiper-slide .text-boder {
+    width: 100%;
+    display: block;
+    max-width: 280px;
+    min-height: 88px;
+    height: 126px;
+  }
+  .nav-section .z--index {
+    z-index: 9999;
+    margin-top: 28px;
+    text-align: center;
+    background-color: #000000cc;
+  }
+  .swiper .content {
+    width: 100%;
+    max-width: 64%;
+  }
+  .swiper-slide .content p {
+    font-size: 45px;
+    margin-top: 0px;
+  }
+  .apointment_section {
+    background-position: top;
+  }
+  .footer_logo img {
+    left: 273px;
+    top: -103px;
+  }
+  .footer_section .links .nav {
+    flex-direction: column;
+    padding-left: 36%;
+  }
+  li.nav-item {
+    padding: 0px;
+  }
+  .footer_section {
+    background-repeat: no-repeat;
+    background-position: top;
+    overflow: hidden;
+  }
+  .footer_pera {
+    display: none;
+  }
+  .errow {
+    display: none;
+  }
+  .footer_section .footer_info_ {
+    display: none;
+  }
+  .footer_section .call_discrip {
+    display: none !important;
+  }
+  .f_crown {
+    width: 245px;
+    margin-left: -14px;
+  }
+  .map_content {
+    width: 100%;
+    margin-left: 235px;
+  }
+  .footer_section .map_i {
+    width: 33%;
+    margin-left: 15px;
+  }
+  .swiper.footerswiper {
+    display: block;
+  }
+}
+@media screen and (max-width: 768px) {
+  .swiper .content {
+    width: 100%;
+    max-width: 70%;
+  }
+  .b_button {
+    padding: 12px 23px;
+    font-size: 16px;
+    border-radius: 50px;
+  }
+  .footer_section .footer_info_ {
+    display: none;
+  }
+  .f_crown {
+    width: 248px;
+    margin-left: 135px;
+  }
+  .logo_border img {
+    left: 182px;
+    top: 60px;
+  }
+  .footer_logo img {
+    left: 205px;
+    top: -93px;
+  }
+  .map_content {
+    width: 100%;
+    margin-left: 190px;
+  }
+  .swiper.footerswiper {
+    width: 52%;
+  }
+}
+@media screen and (max-width: 680px) {
+  .swiper-slide .text-boder {
+    height: 84px;
+  }
+  .swiper-slide .content p {
+    font-size: 29px;
+  }
+  .swiper .content {
+    width: 100%;
+    max-width: 62%;
+  }
+  .text-boder {
+    width: 471px;
+    height: 92px;
+  }
+  .logo_border img {
+    left: 185px;
+    top: 60px;
+  }
+  .footer_logo img {
+    left: 208px;
+    top: -93px;
+  }
+  .footer_section .footer_info_ {
+    display: none;
+  }
+  .left_erro {
+    width: 185px;
+  }
+  .right_erro {
+    width: 185px;
+  }
+  .f_crown {
+    width: 314px;
+    margin-left: 105px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo_border img {
+    left: 91px;
+    top: 66px;
+  }
+  .swiper-slide .text-boder {
+    width: 57%;
+    height: 48px;
+  }
+  .swiper-slide .content p {
+    font-size: 16px;
+    padding-left: 47px;
+  }
+  .b_button {
+    padding: 7px 9px;
+    font-size: 13px;
+  }
+  .branch_section h2 {
+    font-size: 41px;
+  }
+  .red_border {
+    width: 210px;
+  }
+  .c-discrib {
+    font-size: 39px;
+  }
+  .b_button {
+    padding: 11px 15px;
+    font-size: 13px;
+    border-radius: 50px;
+  }
+
+  .footer_logo img {
+    left: 114px;
+    top: -87px;
+  }
+  .footer_section .links .nav {
+    flex-direction: column;
+    padding-left: 30%;
+  }
+  .f_crown {
+    width: 235px;
+    margin-left: 57px;
+  }
+  .map_content {
+    width: 100%;
+    margin-left: 102px;
+  }
+}
