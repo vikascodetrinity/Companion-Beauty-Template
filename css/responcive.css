@@ -1,7 +1,7 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .first-nav {
-    padding-left: 0px;
-  }
+    padding-left: 12%;
+}
   .first-nav .first_nav_dis .f_nav_pera {
     font-size: 11px;
   }
@@ -14,15 +14,29 @@
   .first-nav .first_nav_icon{
     padding-left: 21%;
   }
+  .nav-section .navbar .collapse .navbar-nav .nav-item a.nav-link {
+    font-family: auto;
+    margin: 2px 8px 1px -9px;
+  }
+
   .content p {
     font-size: 47px;
   }
   .logo_border img {
-    left: 424px;
+    left: 384px;
     top: 106px;
-  }
+}
+  .footer_section {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.f_crown {
+  width: 300px;
+  margin-left: 0px;
+}
   .footer_logo img {
-    left: 447px;
+    left: 406px;
     top: -47px;
   }
 }
@@ -243,3 +257,26 @@
   }
 }
 /* -----------About section--------- */
+@media screen and (max-width:992px) {
+  .about_header .aboutsection_heading img.header_img {
+    top: 125px;
+    width: 220px;
+    left: 33%;
+}
+h1.header_discri {
+  left: 34%;
+  top: 170px;
+  font-size: 47px;
+}
+.about_banner {
+  background-image: url(../img/aboutbanner_bg.jpg);
+  /* height: 602px; */
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+}
+@media screen and (max-width: 768px) {
+
+  
+}
