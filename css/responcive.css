@@ -110,6 +110,7 @@
   .swiper.footerswiper {
     display: block;
   }
+  
 }
 @media screen and (max-width: 768px) {
   .swiper .content {
@@ -120,6 +121,14 @@
     padding: 12px 23px;
     font-size: 16px;
     border-radius: 50px;
+  }
+  .footer_sec .container .sec_footer_main{
+    display: inline;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .sec_footer_icon{
+    display: none !important;
   }
   .footer_section .footer_info_ {
     display: none;
@@ -142,6 +151,9 @@
   }
   .swiper.footerswiper {
     width: 52%;
+  }
+  .footer_sec.sec_footer_main.sec_footer_icon{
+    display: none;
   }
 }
 @media screen and (max-width: 680px) {
@@ -230,3 +242,4 @@
     margin-left: 102px;
   }
 }
+/* -----------About section--------- */
