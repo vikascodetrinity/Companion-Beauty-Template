@@ -3,27 +3,27 @@
   padding: 0;
   box-sizing: border-box;
 }
-.first-nav{
+.first-nav {
   background-color: #e21f26;
   width: 100%;
   /* min-width:820px; */
   height: 60px;
-  font-family: 'Poppins',Arial,serif;
+  font-family: "Poppins", Arial, serif;
   padding-top: 16px;
   padding-left: 128px;
   color: #fff;
 }
-.first-nav .first_nav_dis i{
+.first-nav .first_nav_dis i {
   font-size: 30px;
 }
-.first-nav .first_nav_icon i{
+.first-nav .first_nav_icon i {
   font-size: 30px;
 }
-.first-nav .first_nav_icon{
+.first-nav .first_nav_icon {
   padding-left: 36%;
 }
-.first-nav .first_nav_dis .f_nav_pera{
-  font-family: 'Poppins',Arial,sans-serif;
+.first-nav .first_nav_dis .f_nav_pera {
+  font-family: "Poppins", Arial, sans-serif;
   padding: 2px;
   font-size: 14px;
 }
@@ -55,11 +55,11 @@ nav .collapse ul.navbar-nav {
 .nav-section button.btn.btn-danger.firstnav_btn {
   width: 177px;
   height: 50px;
-  font-family: 'Poppins',Arial,sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   border: none;
 }
-.nav-section button.btn.btn-danger.rounded-pill.firstnav_btn:hover{
-  background-color: #d78447
+.nav-section button.btn.btn-danger.rounded-pill.firstnav_btn:hover {
+  background-color: #d78447;
 }
 .navbar-toggler:focus {
   box-shadow: none;
@@ -329,38 +329,35 @@ nav .collapse ul.navbar-nav {
 /* footer fade content */
 .footer_section .footerswiper {
   width: 35%;
-  display:none;
+  display: none;
 }
 /* secound footer stat */
-.footer_sec{
+.footer_sec {
   width: 100%;
   height: 68px;
   min-height: 68px;
   background-color: #000000;
 }
-.sec_footer_logo img{
+.sec_footer_logo img {
   width: 180px;
   height: 36px;
 }
-.sec_footer_main{
+.sec_footer_main {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
 .sec_footer_link {
   font-size: 14px;
-  font: normal normal 14px 'Poppins',Arial,sans-serif;
+  font: normal normal 14px "Poppins", Arial, sans-serif;
 }
-.sec_footer_link a{
+.sec_footer_link a {
   text-decoration: none;
   color: #fff;
 }
-.sec_footer_icon{
+.sec_footer_icon {
   font-size: 29px;
 }
-
-
-
 
 /* -----------------------------ABOUT SECTION----------------------------------- */
 .about_header {
@@ -390,9 +387,9 @@ h1.header_discri {
   color: white;
 }
 /* banner section */
-.about_banner{
+.about_banner {
   background-image: url(../img/aboutbanner_bg.jpg);
-  height: 602px;
+  /* height: 602px; */
 }
 .about_banner h2 {
   font-size: 50px;
@@ -401,11 +398,11 @@ h1.header_discri {
 .about_banner h2 span {
   color: red;
 }
-.a_banner_heading_design{
+.a_banner_heading_design {
   width: 251px;
   height: 2px;
 }
-.banner_a_img{
+.banner_a_img {
   min-width: 480px;
   width: 480px;
   min-height: 493px;
@@ -440,22 +437,156 @@ h1.branch_header_discri {
   color: white;
 }
 /* service_provider section */
-.service_provider_section{
-  height: 950px;
+
+.service_provider_section {
+  height: 100%;
+  /* min-height: 950px; */
 }
-.background_imgdiv{
+.background_imgdiv {
   background-image: url(../img/ourbranch_hair.jpg);
-  height:812px;
-  min-height: 812px;
+  height: 100%;
+  max-height: 812px;
 }
-.service_heading
+.service_heading h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  color: red;
+}
+.service_heading .service_heading_t_design {
+  width: 300px;
+  height: 32px;
+}
+.service_heading .brnach_pera {
+  width: 50%;
+}
+.branch_service_heading h3 {
+  font-family: "playfair Display", serif;
+  font-size: 36px;
+}
+.branch_service_heading h3 span {
+  color: #e21f26;
+}
+.branch_service_img {
+  width: 540px;
+  height: 488px;
+}
+.branch_section_list h2 {
+  color: #e21f26;
+  padding-left: 29px;
+  font-family: "playfair Display", serif;
+}
+.branch_section_list ul li {
+  list-style: none;
+  font-family: "Poppins", Arial, sans-serif;
+}
+button.btn.btn-danger.branch_section_btn {
+  width: 177px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+}
+/* nail care----------------- */
+.background_nail_img {
+  background-image: url(../img/nailart_bg.jpg);
+  height: 100%;
+  max-height: 812px;
+}
+.branch_service_img {
+  width: 540px;
+  height: 488px;
+}
+/* thrading section ---------------*/
+.background_thread_img {
+  background-image: url(../img/threding_bg.jpg);
+  height: 100%;
+  /* max-height: 812px; */
+}
+.branch_section_heading {
+  color: #e21f26;
+  padding-left: 29px;
+  font-family: "playfair Display", serif;
+}
+.branch_section_list .branch_thread_h2 {
+  padding-left: 21px;
+}
+/* facial section ---------------- */
+.background_facial_img{
+  background-image: url(../img/facial_bg.jpg);
+  height: 100%;
+}
 
+/* makeup section */
+.background_makeup_img{
+  background-image: url(../img/makeup_bg.jpg);
+  height: 100%;
+}
+/* bodycare section */
+.background_bodycare_img{
+  background-image: url(../img/bodycare_bg_.jpg);
+  height: 100%;
+}
+/* bodycare section */
+.background_waxing_img{
+  background-image: url(../img/waxing_bg.jpg);
+  height: 100%;
+}
+.branch-service_img{
+  width: 470px;
+  height: 425px;
+}
+/* bath section */
+.background_bath_img{
+  background-image: url(../img/bathsection_bg.jpg);
+}
+/* heena section */
+.background_heena_img{
+  background-image: url(../img/heenasection_bg.jpg);
+  
+}
+/* -------------------------GALLERY SECTION----------------- */
 
-
-
-
+.branch_header {
+  background-image: url(../img/gallerysection_banner_bg.jpg);
+  height: 400px;
+  min-height: 400px;
+  background-position: center;
+  margin-top: -10px;
+}
+h1.gallery_header_discri {
+  font-size: 60px;
+  font-family: "Playfair Display", serif;
+  position: absolute;
+  top: 164px;
+  left: 41%;
+  color: white;
+}
+.gallery_heading_img{
+  width: 300px;
+  height: 95px;
+}
+.gallery_heading_text h2{
+ color: #000000;
+ font-size:56px;
+}
+.gallery_heading_text h2 span{
+  color: #e21f26;
+}
+.service_heading_t_design {
+  width: 300px;
+  height: 32px;
+}
+/* box section */
+.gallery_section{
+  background-image: url(../img/gallery_section_bg.jpg);
+}
+.gallery_box{
+  width: 380px;
+  height: 288px;
+  margin-bottom: 27px;
+}
 
 /* -------------------------CONTACT SECTION---------------------------------------- */
+
 .contact_header {
   background-image: url(../img/contactsection_bg.jpg);
   height: 400px;
@@ -482,7 +613,6 @@ h1.header_discri {
   left: 38%;
   color: white;
 }
-
 /* search section */
 .search_section {
   min-height: 2484px;
@@ -524,13 +654,11 @@ h1.header_discri {
   padding-bottom: 55px;
 }
 /* map section */
-.map_section{
+.map_section {
   width: 100%;
   height: 350px;
 }
-
 /* form section */
-
 .form_section {
   width: 100%;
   height: 100%;
@@ -551,24 +679,24 @@ h1.header_discri {
   min-height: 437px;
   margin-left: 78px;
 }
-.message_input{
+.message_input {
   height: 290px;
   width: 509px;
 }
-.form_btn{
-  padding:6px 12px;
+.form_btn {
+  padding: 6px 12px;
   background-color: #fff;
   margin-left: 80%;
   margin-top: 8px;
 }
-.w--input{
+.w--input {
   width: 509px;
   height: 34px;
 }
-.padding_{
+.padding_ {
   margin-right: -17px !important;
 }
-.form-label{
+.form-label {
   padding-right: 34px;
   font-size: 14px;
   color: #fff;
