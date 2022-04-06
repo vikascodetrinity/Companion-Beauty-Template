@@ -71,6 +71,12 @@ nav .collapse ul.navbar-nav {
 }
 .swiper-slide {
   position: relative;
+  background-position: center;
+  background-size: cover;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
 }
 .swiper-slide .content {
   position: absolute;
@@ -267,6 +273,7 @@ nav .collapse ul.navbar-nav {
   background-image: url(../img/footerbg.svg);
   height: 100%;
   min-height: 745px;
+  background-position: center;
 
   background-size: cover;
   background-repeat: no-repeat;
