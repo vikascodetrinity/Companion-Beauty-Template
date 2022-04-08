@@ -42,10 +42,7 @@
   width: 110px;
   height: 110px;
 }
-nav .collapse ul.navbar-nav {
-  text-align: start;
-  margin-left: 127px;
-}
+
 .nav-section .navbar .collapse .navbar-nav .nav-item a.nav-link {
   font-family: auto;
   margin: 6px 19px 0 10px;
@@ -216,9 +213,23 @@ nav .collapse ul.navbar-nav {
   margin-top: 173px;
 }
 .b_button {
+  padding: 16px 30px;
+  font-size: 18px;
+  border-radius: 50px;
+  margin-right: 10px;
+  background-color: #e21f26;
+}
+.b_button1{
   padding: 15px 30px;
   font-size: 18px;
   border-radius: 50px;
+  background-color: #fff;
+  color: #000000;
+}
+.book_btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* gellary section */
 .gellary_section {
@@ -344,6 +355,7 @@ nav .collapse ul.navbar-nav {
   height: 68px;
   min-height: 68px;
   background-color: #000000;
+  padding-top: 10px;
 }
 .sec_footer_logo img {
   width: 180px;
@@ -419,7 +431,6 @@ h1.header_discri {
 /*---------------------------OUR BRANCH SECTION------------------------------------ */
 .branch_header {
   background-image: url(../img/OURBRANCH_BG.jpg);
-  height: 400px;
   min-height: 400px;
   background-position: center;
   margin-top: -10px;
@@ -430,8 +441,8 @@ h1.header_discri {
 }
 .branch_header .branch_section_heading img.header_img {
   position: absolute;
-  width: 300px;
-  height: 159px;
+  max-width: 300px;
+  min-height: 159px;
   top: 125px;
   left: 38%;
 }
@@ -445,14 +456,9 @@ h1.branch_header_discri {
 }
 /* service_provider section */
 
-.service_provider_section {
-  height: 100%;
-  /* min-height: 950px; */
-}
 .background_imgdiv {
   background-image: url(../img/ourbranch_hair.jpg);
   height: 100%;
-  max-height: 812px;
 }
 .service_heading h2 {
   font-family: "Playfair Display", serif;
@@ -460,8 +466,8 @@ h1.branch_header_discri {
   color: red;
 }
 .service_heading .service_heading_t_design {
-  width: 300px;
-  height: 32px;
+  max-width: 300px;
+  min-height: 32px;
 }
 .service_heading .brnach_pera {
   width: 50%;
@@ -474,12 +480,13 @@ h1.branch_header_discri {
   color: #e21f26;
 }
 .branch_service_img {
-  width: 540px;
-  height: 488px;
+  max-width: 500px;
+  min-height: 488px;
 }
 .branch_section_list h2 {
   color: #e21f26;
   padding-left: 29px;
+  font-size: 24px;
   font-family: "playfair Display", serif;
 }
 .branch_section_list ul li {
@@ -496,25 +503,23 @@ button.btn.btn-danger.branch_section_btn {
 .background_nail_img {
   background-image: url(../img/nailart_bg.jpg);
   height: 100%;
-  max-height: 812px;
 }
 .branch_service_img {
-  width: 540px;
-  height: 488px;
+  max-width: 540px;
+  min-height: 488px;
 }
 /* thrading section ---------------*/
 .background_thread_img {
   background-image: url(../img/threding_bg.jpg);
   height: 100%;
-  /* max-height: 812px; */
 }
 .branch_section_heading {
   color: #e21f26;
   padding-left: 29px;
   font-family: "playfair Display", serif;
 }
-.branch_section_list .branch_thread_h2 {
-  padding-left: 21px;
+.threading_style{
+  padding-top:10% !important;
 }
 /* facial section ---------------- */
 .background_facial_img{
@@ -538,8 +543,8 @@ button.btn.btn-danger.branch_section_btn {
   height: 100%;
 }
 .branch-service_img{
-  width: 470px;
-  height: 425px;
+  max-width: 470px;
+  min-height: 425px;
 }
 /* bath section */
 .background_bath_img{
@@ -568,8 +573,8 @@ h1.gallery_header_discri {
   color: white;
 }
 .gallery_heading_img{
-  width: 300px;
-  height: 95px;
+  max-width: 300px;
+  min-height: 95px;
 }
 .gallery_heading_text h2{
  color: #000000;
@@ -587,9 +592,11 @@ h1.gallery_header_discri {
   background-image: url(../img/gallery_section_bg.jpg);
 }
 .gallery_box{
-  width: 380px;
-  height: 288px;
+  max-width: 380px;
+  min-height: 288px;
   margin-bottom: 27px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* -------------------------CONTACT SECTION---------------------------------------- */
@@ -621,10 +628,6 @@ h1.header_discri {
   color: white;
 }
 /* search section */
-.search_section {
-  min-height: 2484px;
-  height: 2484px;
-}
 .search_section h2 {
   font-size: 50px;
   font-family: "Playfair Display", serif;
@@ -637,18 +640,19 @@ h1.header_discri {
   height: 2px;
 }
 .search_section .call_card .card_img {
-  width: 117px;
-  height: 118px;
+  width: 100%;
+  max-width: 117px;
+  min-height: 118px;
 }
 .search_section .call_card .card_inner {
-  width: 39%;
+  width: 45%;
   text-align: inherit;
   margin-left: 28px;
   padding-top: 6px;
 }
 .search_section .search_girl {
-  width: 550px;
-  height: 635px;
+  max-width: 550px;
+  min-height: 635px;
 }
 .search_section .card_inner h3 {
   font: normal normal 36px "Playfair Display", Arial, serif;
@@ -682,8 +686,8 @@ h1.header_discri {
   margin-left: 38%;
 }
 .form_img {
-  width: 550px;
-  min-height: 437px;
+  max-width: 550px;
+  /* min-height: 437px; */
   margin-left: 78px;
 }
 .message_input {
@@ -693,7 +697,7 @@ h1.header_discri {
 .form_btn {
   padding: 6px 12px;
   background-color: #fff;
-  margin-left: 80%;
+  margin-left: 85%;
   margin-top: 8px;
 }
 .w--input {
@@ -704,7 +708,7 @@ h1.header_discri {
   margin-right: -17px !important;
 }
 .form-label {
-  padding-right: 34px;
+  padding-right: 24px;
   font-size: 14px;
   color: #fff;
 }
